@@ -1,6 +1,7 @@
 // Import a library to hep create a component
 import React from 'react'
-import ReactNative from 'react-native'
+import { AppRegistry } from 'react-native'
+import App from './App'
 
 // Create a component
   const App = () => {
@@ -10,4 +11,4 @@ import ReactNative from 'react-native'
   }
 
 // Render it to the device
-ReactNative.AppRegistry.registerComponent('albums', () => App);
+AppRegistry.registerComponent(appName, () => App);
