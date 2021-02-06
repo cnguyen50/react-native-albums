@@ -3,9 +3,17 @@ import { Text } from 'react-native'
 
 
 const Header = () => {
+  const { textStyle } = styles
   return (
-    <Text>Albums</Text>
+    <Text style={textStyle}>Albums</Text>
   )
+}
+
+const styles = {
+  textStyle: {
+    fontSize: 20
+  }
+
 }
 
 export default Header;
