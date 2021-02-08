@@ -1,10 +1,10 @@
 import React from 'react';
 import { Text, View } from 'react-native'
 
-const AlbumDetail = () => {
+const AlbumDetail = (props) => {
   return (
       <View>
-        <Text>Album Details</Text>
+        <Text>{props.album.title}</Text>
       </View>
   )
 }
