@@ -8,7 +8,7 @@ const AlbumDetail = (props) => {
       <Card>
         <CardSection>
           <View></View>
-          <View>
+          <View style={styles.headerContentStyle}>
             <Text>{props.album.title}</Text>
             <Text>{props.album.artist}</Text>
           </View>
