@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
 import Card from './Card'
 import CardSection from './CardSection'
 
@@ -7,6 +7,7 @@ const AlbumDetail = (props) => {
   return (
       <Card>
         <CardSection>
+          <View></View>
           <Text>{props.album.title}</Text>
         </CardSection>
       </Card>
