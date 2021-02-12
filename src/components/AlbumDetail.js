@@ -5,7 +5,7 @@ import CardSection from './CardSection'
 
 const AlbumDetail = ({ album }) => {
   const { title, artist, thumbnail_image } = album
-  const { thumbnailStyle, headerContentStyle, thumbnailContainerStyle } = styles
+  const { thumbnailStyle, headerContentStyle, thumbnailContainerStyle. headerTextStyle } = styles
 
   return (
       <Card>
@@ -30,6 +30,9 @@ const styles = {
   headerContentStyle: {
     flexDirection: 'column',
     justifyContent: 'space-around'
+  },
+  headerTextStyle: {
+    fontsize: 18
   },
   thumbnailStyle: {
     height: 50,
