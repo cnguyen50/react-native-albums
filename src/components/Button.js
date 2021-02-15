@@ -9,4 +9,8 @@ const Button = () => {
   )
 }
 
+const styles = {
+  buttonStyle: {}
+}
+
 export default Button
