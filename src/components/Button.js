@@ -10,7 +10,16 @@ const Button = () => {
 }
 
 const styles = {
-  buttonStyle: {}
+  buttonStyle: {
+    flex: 1,
+    alignSelf: 'stretch',
+    backgroundColor: '#fff',
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: '#007adff',
+    marginLeft: 5,
+    marginRight: 5
+  }
 }
 
 export default Button
